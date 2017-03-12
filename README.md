@@ -1,18 +1,18 @@
 # Webmapping_Geocodage
 ## Projet Webmapping 2016
 ### Manuel d'installation
-Ce manuel d'installation vous guidera pour la mise en place de la base de données et le bon fonctionnement du code fourni le tout sur un système d'exploitation Windows (10). Le manuel d'installation fait l'hypothèse que vous sachiez manipuler le logiciel "pgAdmin3" et un server tel que "EasyPHP".
+Ce manuel d'installation vous guidera pour la mise en place de la base de données et le bon fonctionnement du code fourni le tout sur un système d'exploitation Windows (10). Le manuel d'installation fait l'hypothèse que vous sachiez manipuler le logiciel **pgAdmin3** et un server tel que **EasyPHP**.
 
 #### La base de données
-Tout d'abord, il est nécessaire de posséder sur sa machine le logiciel "pgAdmin3" pour la création de la base de données.Une fois "pgAdmin3" lancé, créez la base de données que vous appellerez "adresse_geocodage" :
+Tout d'abord, il est nécessaire de posséder sur sa machine le logiciel **pgAdmin3** pour la création de la base de données.Une fois **pgAdmin3** lancé, créez la base de données que vous appellerez **adresse_geocodage** :
 
 ![1.jpg](img/1.jpg)
 
-S'en suit la création des tables à l'aide du fichier "CREATE_TABLE_Rudolf_M.sql" :
+S'en suit la création des tables à l'aide du fichier **CREATE_TABLE_Rudolf_M.sql** :
 
 ![2.jpg](img/2.jpg)
 
-Et enfin le remplissage de celles-ci de quelques adresses, choisies de manières arbitraires, et de leurs géocodages récupérées sur Google, Bing et OpenStreetMap (fichier " INSERT_INTO_Rudolf_M.sql") :
+Et enfin le remplissage de celles-ci de quelques adresses, choisies de manières arbitraires, et de leurs géocodages récupérées sur Google, Bing et OpenStreetMap (fichier **INSERT_INTO_Rudolf_M.sql**) :
 
 ![3.jpg](img/3.jpg)
 
@@ -20,17 +20,17 @@ Vous devez maintenant avoir une base qui ressemble à ça :
 
 ![4.jpg](img/4.jpg)
 
-Votre base de données expérimentales est maintenant opérationnelle pour le bon fonctionnement du code fourni. Ce dernier peut même fonctionner sans que "pgAdmin3" ne soit ouvert. Cependant, en cas de problème, il est conseillé de relancer "pgAdmin3". Supprimer puis recréer la base de données peut être une solution.
+Votre base de données expérimentales est maintenant opérationnelle pour le bon fonctionnement du code fourni. Ce dernier peut même fonctionner sans que **pgAdmin3** ne soit ouvert. Cependant, en cas de problème, il est conseillé de relancer **pgAdmin3**. Supprimer puis recréer la base de données peut être une solution.
 
 #### Le serveur
 
 Il est maintenant nécessaire d'installer sur votre machine un serveur tel que MAMP ou EasyPHP. Il est recommandé d'utiliser la version 14.1 d'EasyPHP.
 
-De plus, pour que le code puisse interagir avec la base de données, il est nécessaire d'activer l'extension pgsql de PHP en supprimant les ";" au bon endroit :
+De plus, pour que le code puisse interagir avec la base de données, il est nécessaire d'activer l'extension pgsql de PHP en supprimant les **;** au bon endroit :
 
 ![5.jpg](img/5.jpg)
 
-Le code de consultation web pour comparer des services de géocodages est réparti sur deux fichiers .php : "index.php" et "recherche.php". Pour le bon fonctionnement du code, il est recommandé de pointé votre serveur vers "index.php", c'est-à-dire la première page que vous devrez ouvrir à chaque première utilisation.
+Le code de consultation web pour comparer des services de géocodages est réparti sur deux fichiers .php : **index.php** et **recherche.php**. Pour le bon fonctionnement du code, il est recommandé de pointé votre serveur vers **index.php**, c'est-à-dire la première page que vous devrez ouvrir à chaque première utilisation.
 Vous êtes maintenant prêt à vous servir de la page Web, pour pouvez passez au Manuel utilisateur.
 
 ### Manuel utilisateur
