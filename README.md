@@ -4,7 +4,7 @@
 Ce manuel d'installation vous guidera pour la mise en place de la base de données et le bon fonctionnement du code fourni le tout sur un système d'exploitation Windows (10). Le manuel d'installation fait l'hypothèse que vous sachiez manipuler le logiciel **pgAdmin3** et un server tel que **EasyPHP**.
 
 #### La base de données
-Tout d'abord, il est nécessaire de posséder sur sa machine le logiciel **pgAdmin3** pour la création de la base de données.Une fois **pgAdmin3** lancé, créez la base de données que vous appellerez **adresse_geocodage** :
+Tout d'abord, il est nécessaire de posséder sur sa machine le logiciel **pgAdmin3** pour la création de la base de données. Une fois **pgAdmin3** lancé, créez la base de données que vous appellerez **adresse_geocodage** :
 
 ![1.jpg](img/1.jpg)
 
